@@ -31,9 +31,25 @@ MAGic Player - музыкальный проигрыватель для ОС And
 Таким образом, используя данное приложение, пользователи получат не только удовлетворение при прослушивании музыкальных композиций, но и сэкономят свои денежные средства.
 
 ## 🌵Структура проекта
-app.
-- manifests
--   AndroidManifests.xml
--   
+- app
+    - manifests
+        - AndroidManifest.xml
+    - java
+        - com.example.projectMP3
+            - Activity
+                - AboutAppActivity
+                - AlbumDetailsActivity
+                - MainActivity
+                - PlayerActivity
+            - Adapter
+                - AlbumAdapter
+                - AlbumDetailsAdapter
+                - SongAdapter
+            - Fragment
+                - AlbumFragment
+                - SongFragment
+            - model
+                - MusicFile
+            - SplashScreenActivity        
 
 
