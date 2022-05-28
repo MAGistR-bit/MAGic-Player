@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_marginBottom="2dp"
+        app:titleTextColor="@color/black"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <!-- Отображение вкладок -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolBar"
+        android:background="@color/colorPrimaryDark"
+        app:tabIndicatorColor="#009688"
+        app:tabIndicatorFullWidth="true"
+        app:tabIndicatorGravity="center"
+        app:tabIndicatorHeight="40dp"
+        app:tabTextColor="@color/colorAccent"
+        app:tabIndicator="@drawable/tab_indicater"
+        android:layout_marginBottom="1dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout">
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/open_Music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_play"
+        app:backgroundTint="#FFFFFF"
+        app:elevation="10dp"
+        android:contentDescription="@string/open_music"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

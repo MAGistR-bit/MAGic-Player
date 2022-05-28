@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ImageView
+        android:id="@+id/general_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_app_info"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/back_menu_app_info" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card_developer"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/splash_screen_logo"
+                android:contentDescription="@string/icon_app" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/name_player"
+            android:textStyle="bold"
+            android:textColor="#626363"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/id_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/version_app"
+            android:textColor="#626363"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/edit_black_24dp"
+            android:contentDescription="@string/edit_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/developed_by"
+            android:textColor="#626363"
+            android:textSize="20sp"
+            android:layout_marginStart="5dp" />
+
+        <CheckedTextView
+            android:id="@+id/Mikhail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/name_developer"
+            android:textColor="#626363"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

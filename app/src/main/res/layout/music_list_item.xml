@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/music_items"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="#111111"
+    android:orientation="vertical"
+    android:padding="4dp"
+    >
+
+<!-- Обложка альбома -->
+    <ImageView
+        android:id="@+id/music_img"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:contentDescription="@string/music_from_playlist" />
+
+<!-- Название музыкальной композиции -->
+    <TextView
+        android:id="@+id/music_filename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/music_img"
+        android:text="@string/file_name"
+        android:textColor="@color/colorAccent"
+        android:layout_toEndOf="@+id/music_img" />
+
+</RelativeLayout>
