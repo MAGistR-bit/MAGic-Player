@@ -1,4 +1,5 @@
 ![made-with-java](https://img.shields.io/badge/Made%20with-Java-brightgreen)
+![made-with-Android](https://img.shields.io/badge/Made%20with-Android%20Studio-red)
 <br />
 <h1>
 <p align="center">
