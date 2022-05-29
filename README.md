@@ -19,7 +19,7 @@
 </p> 
 
 <p align="center">
-<!-- Добавить GIF-анимацию -->
+![](https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/music_player.gif)
 </p> 
 
 ## 📝О проекте
