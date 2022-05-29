@@ -61,11 +61,28 @@ MAGic Player - музыкальный проигрыватель для ОС And
          - mipmap
          - values
 ## 💾Скриншоты
-<p> Ниже продемонстрирована главная страница мобильного приложения. </p>
+<p> <i>Ниже продемонстрирована главная страница мобильного приложения.</i> </p>
  <p align="center">
  <img src="https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/1.png" alt="Main" width="45%" height="45%">
 </p>
-         
+
+<p> <i>В приложении "MAGic Player" имеется несколько разделов («Песни», «Альбомы»). Вкладка "Альбомы" представлена ниже. </i></p>
+ <p align="center">
+ <img src="https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/2.png" alt="Album" width="45%" height="45%">
+</p>
+<p><i>Воспроизведение музыкальной композиции.</i></p>
+<p align="center">
+ <img src="https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/4.png" alt="Play" width="45%" height="45%">
+</p>
+<p><i>Поиск песни (по названию).</i></p>
+<p align="center">
+ <img src="https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/5.png" alt="Search" width="45%" height="45%">
+</p>
+<p><i>Меню мобильного приложения "MAGic Player".</i></p>
+<p align="center">
+ <img src="https://github.com/MAGistR-bit/MAGic-Player/blob/master/app/src/main/java/com/example/projectMP3/screenshots/6.png" alt="Menu" width="45%" height="45%">
+</p>
+
 ## 📚Список литературы
 <ul>
  <li>
