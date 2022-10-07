@@ -119,10 +119,7 @@ MAGic Player - музыкальный проигрыватель для ОС And
 
 ## 👨‍💻Разработчик
 <p>
- 🎓<i>Участник проекта является студентом <a href="http://bgitu.ru/universitet/instituty/inzhenerno-ekonomicheskiy-institut/kafedra-informatsionnykh-tekhnologiy/index.php?sphrase_id=41341">кафедры информационных технологий ФГБОУ ВО "БГИТУ"</a></i><br/>
-  
   👨‍🎓Горбатенков Михаил <br/>
-  📧mikh.gorbatenkoff@yandex.ru</a> <br>
   GitHub: <a href="https://github.com/MAGistR-bit">@MAGistR-bit</a> <br>
 </p>
 
